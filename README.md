@@ -16,11 +16,16 @@ To use Transfer Learning, I have executed the following command from Caffe root 
 
 build/tools/caffe train --solver = face_recognition/solver.prototxt --weights = face_recognition/VGG_FACE.caffemodel
 
-Note: Below in References section, I have included the link to trained caffemodel.
+Note: Below in References section, I have included the link to pre-trained caffemodel.
 
 ##Output/Accuracy
+After running for 4000 iterations I achieved the accuracy of 95.5% which is pretty good and very close to the accuracy of Facebook Face Recognition model which uses billions of images to train their network.
 
+"Output ScreenShots" folder includes few snapshots that shows correct classifications done by the trained network.
 
+Below is the command I executed on new images of celeberiteis using the new trained model.
+
+build/examples/cpp_classification/classification.bin face_recognition/vgg_face_deploy.prototxt face_recognition/face_recog_iter_4000.caffemodel face_recognition/train_mean.binaryproto face_recognition/synset_FR.txt face_recognition/Testing_data/test_000082-000018.jpg
 
 ##References
 http://www.robots.ox.ac.uk/~vgg/software/vgg_face/

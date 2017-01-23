@@ -9,7 +9,7 @@ Dataset Link: http://www.briancbecker.com/blog/research/pubfig83-lfw-dataset/
 I have used VGG Net which includes 13 convolutional layers, 3 fully connected layers, and ReLu, Max-Pooling, Dropout layers in between. 
 
 ##Training
-For training, I have used Transfer Learning to train my network and to achieve more accuracy in fewer iterations. In the training, 
+For training, I have used Transfer Learning to train the network and to achieve more accuracy in fewer iterations. In the training, 
 I have used the pre-trained weights instead of initializing the weights randomly i.e trained caffemodel on the same network/model but on the different dataset.
  
 To use Transfer Learning, I have executed the following command from Caffe root folder to train the model.

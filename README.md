@@ -2,7 +2,7 @@
 Trained a VGG net for face recognition.
 
 ## Dataset
-Dataset has images of 84 individuals which includes faces of 83 celebrities and myself. Training set has 8770 images and the testing set has 840 images. 
+Dataset has images of 84 individuals which includes faces of 83 celebrities and myself. Training set has 8770 images and the testing set has 840 images in total. 
 Dataset Link: http://www.briancbecker.com/blog/research/pubfig83-lfw-dataset/
 
 ##Model

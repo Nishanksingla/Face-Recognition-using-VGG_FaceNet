@@ -27,6 +27,14 @@ Below is the command I executed on new images of celebrities for classification 
 
 build/examples/cpp_classification/classification.bin face_recognition/vgg_face_deploy.prototxt face_recognition/face_recog_iter_4000.caffemodel face_recognition/train_mean.binaryproto face_recognition/synset_FR.txt face_recognition/Testing_data/test_000082-000018.jpg
 
+## Links to Demo Videos
+Below are the links of videos that is demonstrating Face Detection, Face Tracking and Face Recognition of myself, Zac Efron and Will Smith.
+
+1.) Nishank(Myself): https://drive.google.com/open?id=0B7zeI-3IdrKLY3dUYmhhQjZqZWc <br/>
+2.) Zac Efron: https://drive.google.com/open?id=0B7zeI-3IdrKLTkoxc3EyckVpOG8 <br/>
+3.) Will Smith: https://drive.google.com/open?id=0B7zeI-3IdrKLQ2U1MnNLUDhsSXc
+
+
 ## References
 http://www.robots.ox.ac.uk/~vgg/software/vgg_face/
 
